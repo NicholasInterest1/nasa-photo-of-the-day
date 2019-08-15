@@ -6,15 +6,15 @@ const FooterArea = styled.div`
 `;
 
 const FooterSubArea = styled.p`
-font-size: 1.25rem;
+font-size: 2rem;
 color: dodgerblue;
 padding-top: 15px;
 `;
 
 const FooterButton = styled.button`
-font-size: 1rem;
+font-size: 1.5rem;
 background-color: dodgerblue;
-padding: 15px;
+padding: 10px;
 border-radius: 8px;
 `;
 
