@@ -3,6 +3,7 @@ import MenuEx from "./components/MenuEx";
 import Supreme from "./components/Supreme";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Buttons from "./components/Buttons"
 import "./App.css";
 
 
@@ -13,6 +14,7 @@ function App() {
       <MenuEx />
       <Supreme />
       <Footer />
+      <Buttons />
     </div>
   );
 }
