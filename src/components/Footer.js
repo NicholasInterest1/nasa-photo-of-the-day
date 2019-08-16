@@ -11,22 +11,25 @@ color: dodgerblue;
 padding-top: 15px;
 `;
 
-const FooterButton = styled.button`
-font-size: 1.5rem;
-background-color: dodgerblue;
-padding: 10px;
-border-radius: 8px;
-`;
+// const FooterButton = styled.button`
+// font-size: 1.5rem;
+// color: white;
+// background-color: dodgerblue;
+// padding: 10px;
+// border-radius: 8px;
+// `;
 
-const FooterButtonStyle = styled.a`
-color: white;
+const FooterSubAreaStyle = styled.a`
+color: dodgerblue;
+font-size: 1.75rem;
+padding-bottom: 1rem;
 `;
 
 const Footer = () => {
     return (
         <FooterArea>
             <FooterSubArea>Text and Photo's from NASA's APOD Api</FooterSubArea>
-            <FooterButton>< FooterButtonStyle href="https://api.nasa.gov/api.html#apod">Take a look!!!</FooterButtonStyle></FooterButton>
+            <FooterSubAreaStyle href="https://api.nasa.gov/api.html#apod">Click me and take a look!!!</FooterSubAreaStyle>
         </FooterArea>
     );
 }
