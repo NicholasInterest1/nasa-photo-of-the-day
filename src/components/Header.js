@@ -8,11 +8,6 @@ const MainTitle = styled.h1`
   margin: 0;
 `;
 
-const MainTitle2 = styled.h2`
-  color: dodgerblue;
-  font-size: 2.5rem;
-`;
-
 const MainContent = styled.div`
   background-color: black;
 `;
@@ -22,8 +17,7 @@ const MainContent = styled.div`
 const Header = () => {
     return (
         <MainContent>
-            <MainTitle>Hello World!</MainTitle>
-            <MainTitle2>Photo of the Day by NASA</MainTitle2>
+            <MainTitle>Nasa Photo of the Day</MainTitle>
         </MainContent>
     )
 }

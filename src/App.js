@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <MenuEx />
+      {/* <MenuEx /> */}
       <Supreme />
       <Footer />
       <Buttons />
