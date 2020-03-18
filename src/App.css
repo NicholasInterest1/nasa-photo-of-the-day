@@ -31,3 +31,17 @@
     transform: rotate(360deg);
   }
 }
+
+.ui.menu {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: black;
+}
+
+.ui.menu .item {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+}

@@ -1,13 +1,20 @@
 import React from "react";
+import MenuEx from "./components/MenuEx";
+import Supreme from "./components/Supreme";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Buttons from "./components/Buttons"
 import "./App.css";
+
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <Header />
+      {/* <MenuEx /> */}
+      <Supreme />
+      <Footer />
+      <Buttons />
     </div>
   );
 }
